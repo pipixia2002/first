@@ -1,0 +1,170 @@
+.header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 3px,
+        rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.nav {
+    width: 1152px;
+    height: 100%;
+    line-height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* nav-left */
+.nav-left {
+    width: 494px;
+    display: flex;
+    justify-content: space-between
+}
+
+.nav-box:hover {
+    color: #000000;
+}
+
+/* 实现logo居中 */
+.logo {
+    display: flex;
+}
+
+.logo img {
+    align-self: center;
+}
+
+.downorder {
+    width: 60px;
+    height: 100%;
+    position: relative;
+}
+
+.store {
+    width: 60px;
+    color: #f9a034;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store img {
+    width: 12px;
+    height: 12px;
+    align-self: center;
+
+}
+
+.downtext {
+
+    box-sizing: border-box;
+    position: absolute;
+
+    height: 90px;
+    width: 70px;
+
+}
+
+.downtext a {
+    border: 1px solid #f2f2f2;
+    display: none;
+    width: 70px;
+    height: 25px;
+    padding: 5px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    color: #f9a034;
+    background-color: #fff;
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.08);
+}
+
+
+.downorder:hover a {
+    display: block;
+
+}
+
+.downtext a:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+
+/* nav-right */
+.nav-right {
+    width: 303px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-left {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plus {
+    font-size: 14px;
+    width: 81px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    color: #f9a034;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+
+}
+
+.qiye {
+    font-size: 12px;
+    width: 50px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    color: #2e7bfb;
+    border: 1px solid #2e7bfb;
+    border-radius: 4px;
+}
+
+.qiye:hover {
+    background-color: #f2f2f2;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone img {
+    width: 21px;
+    height: 23px;
+}
+
+.line {
+    color: #f0f0f0;
+}
+
+.line-right {
+    width: 100px;
+    font-size: 13px;
+    color: #595959;
+    display: flex;
+    justify-content: space-between;
+}
+
+.registered {
+    width: 26px;
+}
+
+.or {
+    width: 13px;
+}
+
+.login {
+    width: 26px;
+}

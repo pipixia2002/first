@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leetcode</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="nav-left">
+                <span class="logo"><img
+                        src="https://static.leetcode.cn/cn-mono-assets/production/assets/logo-dark-cn.4c5e285b.svg"
+                        alt=""></span>
+                <span class="nav-box">学习</span>
+                <span class="nav-box">题库</span>
+                <span class="nav-box">竞赛</span>
+                <span class="nav-box">讨论</span>
+                <span class="nav-box">求职</span>
+                <span class="downorder">
+                    <span class="store">
+                        <span>商店</span><img src="images/triangle.png" alt="">
+                        <span class="downtext">
+                            <a href="https://detail.youzan.com/show/goods/newest?alias=271n43vr9hen7">精品商城</a>
+                            <a href="https://leetcode.cn/store/">力扣周边</a>
+                            <a
+                                href="https://leetcode.cn/premium-payment/?token=dc1b354e-5c60-4c06-a400-a043bd72581a&source=nav-shop-premium">Plus会员</a>
+                        </span>
+                    </span>
+                </span>
+
+            </div>
+            <div class="nav-right">
+                <span class="line-left">
+                    <span class="plus">Plus会员</span>
+                    <span class="qiye">企业版</span>
+                    <span class="phone"><img src="images/phone.png" alt=""></span>
+                </span>
+                <span class="line">|</span>
+                <span class="line-right">
+                    <span class="registered nav-box">注册</span>
+                    <span class="or">或</span>
+                    <span class="login nav-box">登录</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="contain">
+            <div class="contain-left">
+                <div class="hot">
+                    <a href="https://leetcode.cn/circle/discuss/P0tiwZ/" class="hot-left">
+
+                        <div class="hot-title">
+                            <span class="bishi">笔试技巧知多少 2 | 笔试备考指南</span>
+                            <span class="hot-discussion">热议中</span>
+                        </div>
+                        <div class="hot-passage">点击标签栏里的 「暖春 Offer 计划」 标签或点击头图，可以进入完整专栏↗️ 嘿，又是我
+                            还记得咱们上期提到的关于笔试前的准备、</div>
+                        <div class="hot-users">
+                            <span>
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/users/heuristic-agnesizyb/avatar_1668100586.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt="">
+                                <span class="num">1.3k用户正在围观</span>
+                            </span>
+                            <span class="join-in">进入讨论 >></span>
+                        </div>
+                    </a>
+                    <a href="https://leetcode.cn/circle/discuss/yVNA50/" class="hot-right">
+                        <div class="hot-title"><span class="bishi">面经｜字节跳动｜推荐算法｜春招正式批</span>
+                            <span class="hot-discussion">热议中</span>
+                        </div>
+                        <div class="hot-passage">一面（复杂度分析）问项目 目标检测算法的分类（项目衍生）
+                            请设计一个短视频推荐系统（衍生各种推荐系统的基础问题和八股文）</div>
+                        <div class="hot-users"><span>
+                                <img src="https://assets.leetcode.cn/aliyun-lc-upload/users/heuristic-agnesizyb/avatar_1668100586.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt="">
+                                <span class="num">1.3k用户正在围观</span>
+                            </span>
+                            <span class="join-in">进入讨论 >></span>
+                        </div>
+                    </a>
+                </div>
+                <a><img src="https://pic.leetcode.cn/1679881160-HTaKUK-%E7%A4%BE%E5%8C%BA%20-%20%E9%A6%96%E9%A1%B5banner.png?x-oss-process=image%2Fformat%2Cwebp"
+                        class="banner" alt=""></a>
+                <div class="interview">
+                    <div class="firm">
+                        <div class="title"><span><img src="images/arrow.png" alt="">
+                                <span class="title-left">名企面试题</span>
+                            </span>
+                            <a href="https://leetcode.cn/company/" class="title-right">更多></a>
+                        </div>
+                        <div class="firm-example">
+                            <a href="https://leetcode.cn/company/huawei/discuss/latest/" class="firm-example-box">
+                                <div><img
+                                        src="https://pic.leetcode-cn.com/d2e85988beccb271af4b1a8f4767e4bdf4c085aaf5aaef093347d778e4e138d7-20.png"
+                                        alt="" class="firm-logo"></div>
+                                <div class="firm-example-all">
+                                    <div class="firm-example-name">华为</div>
+                                    <div class=" firm-example-text"><span class=" firm-example-text-left">热门指数
+                                        </span><span class="firm-example-text-right"> 6,821↑ </span></div>
+                                </div>
+                                <div class="firm-example-bottom"><span><img src="images/chat.png" alt=""
+                                            class="firm-chat"> <span>围观讨论</span></span>
+                                    <span><img
+                                            src="https://assets.leetcode.cn/aliyun-lc-upload/users/heuristic-agnesizyb/avatar_1668100586.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="https://leetcode.cn/company/bytedance/discuss/latest/" class="firm-example-box">
+                                <div><img src="https://pic.leetcode-cn.com/1608896124-NAAKhT-images.png"
+                                        class="firm-logo" alt=""></div>
+                                <div class="firm-example-all">
+                                    <div class="firm-example-name">字节跳动</div>
+                                    <div class=" firm-example-text"><span class=" firm-example-text-left">热门指数
+                                        </span><span class="firm-example-text-right"> 6,587↑ </span></div>
+                                </div>
+                                <div class="firm-example-bottom"><span><img src="images/chat.png" alt=""
+                                            class="firm-chat"> <span>围观讨论</span></span>
+                                    <span><img
+                                            src="https://assets.leetcode.cn/aliyun-lc-upload/users/heuristic-agnesizyb/avatar_1668100586.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="https://leetcode.cn/company/meituan/discuss/latest/" class="firm-example-box">
+                                <div><img
+                                        src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploaded_files/2021/01/5d12738e-00e0-4eaa-abec-bf4d8e65e49b/%E7%BE%8E%E5%9B%A2_1024x1024.png"
+                                        alt="" class="firm-logo"></div>
+                                <div class="firm-example-all">
+                                    <div class="firm-example-name">美团</div>
+                                    <div class=" firm-example-text"><span class=" firm-example-text-left">热门指数
+                                        </span><span class="firm-example-text-right"> 6,482↑ </span></div>
+                                </div>
+                                <div class="firm-example-bottom"><span><img src="images/chat.png" alt=""
+                                            class="firm-chat"> <span class="">围观讨论</span></span>
+                                    <span><img
+                                            src="https://assets.leetcode.cn/aliyun-lc-upload/users/heuristic-agnesizyb/avatar_1668100586.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </a>
+                            <a href="https://leetcode.cn/company/baidu/discuss/latest/" class="firm-example-box">
+                                <div><img
+                                        src="https://assets.leetcode-cn.com/aliyun-lc-upload/tag/%E7%99%BE%E5%BA%A6/company_logo"
+                                        alt="" class="firm-logo"></div>
+                                <div class="firm-example-all">
+                                    <div class="firm-example-name">百度</div>
+                                    <div class=" firm-example-text"><span class=" firm-example-text-left">热门指数
+                                        </span><span class="firm-example-text-right"> 6,453↑ </span></div>
+                                </div>
+                                <div class="firm-example-bottom"><span><img src="images/chat.png" alt=""
+                                            class="firm-chat"> <span>围观讨论</span></span>
+                                    <span><img
+                                            src="https://assets.leetcode.cn/aliyun-lc-upload/users/heuristic-agnesizyb/avatar_1668100586.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt=""><img
+                                            src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                            alt="">
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-all">
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">内推｜华为OD｜西安|HC管够</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">工作职责：进行服务器工具箱的开发与维护(Java开发)
+                                流程：机试--性格测试--技术一面--技术二面--资格面试--综合面试--入职
+                                基本要求：目标院校(可私聊确认)，算法(只要你会做一点算法，后面面试问题都不大)
+                                加分项：机考分数，面试情况，院校，获奖情况，工作经验等(影响定级)</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">【今日一题请教】为什么O(m*n)复杂度超时,字符串拼接很耗时吗</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">【为什么O(m*n)复杂度超时】字符串拼接很耗时吗</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">提问｜双非Java还有机会吗</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">现在大二了，特别怕到时候找不到工作。今年就业也特别难。想着实在不行下半年报C++的培训班</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">《计算之魂》思考题0.1</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/" class="box-passage">简介
+                                思考题 0.1：如何通过指令控制，将一副扑克牌编程一种简单的计算机？（难度星级：4星）
+
+                                我想扑克牌有点数数值、有花色，要用它模拟计算机的计算能力，可以用扑克牌的特定组合表示指令，但指令的编码会受限于一副扑克牌中的特定的牌数。</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">职言｜连续加班一个多月后，反思一下为啥国内程序员加班这么多</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">连续加班一个多月后，反思一下为啥国内程序员加班这么多
+                                关注程序员耳东，编程转码真轻松
+
+                                防杠指南：本文不适用于资深大佬，若喷必回
+
+                                今年过完年之后一直在加班，关注我的粉丝应该也能看出来，2月份和3月份写的笔记确实比较少，最近才开始恢复</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/" class="box-title-right">
+                                    求助｜计算出一个数组中连续出现相同数字的最大次数</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/" class="box-passage">比如:
+
+                                tempArr =[1,2,2,3,4,4,5,4,3,2,7,8,7,9,7,8,5,6,7,10,8,7,6,7,10,10,2,3,4,3,4,4,4,4,4,5,5]
+                                通过计算会得到如下数组
+                                result Arr =[1,2,1,5,2,1,1,1,1,2]</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/" class="box-title-right">【感悟 |
+                                    700题】</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">不知不觉已经700题了，最近的感悟是其实做了多少题不重要，能在笔试的时候把做过的（类）题再完整无误地做出来才是真本事。最近其实是在面向题库学习以及有针对性地复习。</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">社招+内推｜华为OD｜杭州南京北京</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">流程：机试--性格测试--技术一面--技术二面--资格面试--综合面试--入职
+                                基本要求：目标院校(可私聊确认)，算法(只要你会做一点算法，后面面试问题都不大)
+                                加分项：机考分数，面试情况，院校，获奖情况，工作经验等(影响定级)
+                                其他：入职华为员工一对一辅导，年终奖：2-4个月，加班双倍工资</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/" class="box-title-right">后端 | Go |
+                                    基础 | 一</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+
+                        <div class="box">
+                            <div class="box-title"><img
+                                    src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-2.da5649cc.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                    alt=""><span class="box-title-left"> 参与了 </span>
+                                <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                    class="box-title-right">求助｜C语言学的是C99标准的，如何看懂C90标准的</a>
+                            </div>
+                            <a href="https://leetcode.cn/circle/discuss/dMlgcN/"
+                                class="box-passage">学了谭浩强C99标准的，看一些数据结构的书却是C90标准的，代码描述有些能看懂有些看不懂，自己上机实现困难</a>
+                            <div class="box-chat"><img src="images/chat.png" alt=""> 讨论</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-box">
+                    <div class="botton">加载更多</div>
+                </div>
+            </div>
+            <div class="contain-right">
+                <input type="text">
+                <a href="https://leetcode.cn/leetbook/detail/way-of-pass-sql-interview/"><img src="images/1.png" alt=""
+                        class="ad-one"></a>
+                <a href="https://leetcode.cn/contest/season/2023-spring/"><img src="images/2.png" alt=""
+                        class="ad-two"></a>
+                <div class="app">
+                    <div class="app-left"><span class="app-circle"><img src="images/write.png" alt=""
+                                class="app-img"></span>
+                        <span class="app-text">发起讨论</span>
+                    </div>
+                    <div class="app-right"><span class="app-circle"><img src="images/random.png" alt=""
+                                class="app-img"></span>
+                        <span class="app-text">随机面试</span>
+                    </div>
+                </div>
+                <div class="discussion">
+                    <div class="discussion-title">热门讨论</div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">1
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span>
+                        <span class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">2
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">3
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">4
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">5
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">6
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                </div>
+                <a href="https://leetcode.cn/contest/biweekly-contest-101"><img src="images/3.png" alt=""
+                        class="ad-three"></a>
+                <div class="discussion">
+                    <div class="discussion-title">热门题解</div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">1
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span>
+                        <span class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">2
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">3
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">4
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">5
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                    <div class="discussion-box"><span class="discussion-text-one"><span class="discussion-box-num">6
+                            </span><img
+                                src="https://static.leetcode.cn/cn-mono-assets/production/assets/default-avatar-1.8547304a.png?x-oss-process=image%2Fresize%2Ch_32%2Cw_32%2Fformat%2Cwebp"
+                                alt="">
+                            <span>[力扣刷题攻略] Re：从零开始的力扣刷题生活</span></span><span
+                            class="discussion-text-two">这是一份由力扣官方整理的推荐刷题路径</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-top-text">
+                <div class="footer-top-one">
+                    <dl>
+                        <dt>力扣LeetCode</dt>
+                        <dd>竞赛</dd>
+                        <dd>LeetBook</dd>
+                        <dd>讨论社区</dd>
+                        <dd>求职</dd>
+                        <dd>Plus会员</dd>
+                        <dd>周边商场</dd>
+                    </dl>
+                </div>
+                <div class="footer-top-two">
+                    <dl>
+                        <dt>企业服务</dt>
+                        <dd>在线面试</dd>
+                        <dd>企业测评</dd>
+                        <dd>招聘</dd>
+                        <dd>培训</dd>
+                        <dd>解决方案</dd>
+                    </dl>
+                </div>
+                <div class="footer-top-three">
+                    <dl>
+                        <dt>商务</dt>
+                        <dd>社区合作</dd>
+                        <dd>活动</dd>
+                        <dd>赞助竞赛</dd>
+                        <dd>产品推广</dd>
+                        <dd>校园合作</dd>
+                    </dl>
+                </div>
+                <div class="footer-top-four">
+                    <dl>
+                        <dt>关于我们</dt>
+                        <dd>价值观</dd>
+                        <dd>工作机会</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer-top-five">
+                <div class="footer-top-five-img">
+                    <img src="images/weixin.png" alt="">
+                    <img src="images/weibo.png" alt="">
+                    <img src="images/zhihu.png" alt="">
+                    <img src="images/jin.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-top">
+                <span class="footer-bottom-top-left">© 2023 领扣网络（上海）有限公司</span>
+                <span class="footer-bottom-top-right">商务咨询 | 侵权投诉 | 问题反馈 | 加入我们 | 使用条款 | 隐私政策</span>
+            </div>
+            <div class="footer-bottom-bottom">
+                <div>沪ICP备18019787号-20&nbsp;&nbsp;&nbsp;
+                    沪公网安备31010702007420号&nbsp;&nbsp;&nbsp;
+                    沪ICP证B2-20180578&nbsp;&nbsp;&nbsp;
+                    LeetCode力扣·证照中心</div>
+                <div>上海市互联网违法和不良信息举报中心&nbsp;&nbsp;&nbsp;
+                    中国互联网违法和不良信息举报中心</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
