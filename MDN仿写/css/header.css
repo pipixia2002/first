@@ -1,0 +1,254 @@
+header {
+    width: 100%;
+    height: 65px;
+    background-color: #1b1b1b;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container-left-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 430px;
+    height: 100%;
+    list-style: none;
+    text-align: center;
+}
+
+.container-left-all:nth-child(3) {
+    width: 70px;
+}
+
+.container-left .navlist {
+    box-sizing: border-box;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 17px;
+
+}
+
+.container-left .navlist:nth-child(2) .dropbottom {
+    width: 100px;
+}
+
+.container-left .navlist:nth-child(3) .dropbottom {
+    width: 70px;
+
+}
+
+.container-left .navlist:nth-child(4) .dropbottom {
+    width: 100px;
+}
+
+.container-left .navlist:nth-child(2) .dropbottom:hover,
+.container-left .navlist:nth-child(3) .dropbottom:hover,
+.container-left .navlist:nth-child(4) .dropbottom:hover {
+    background-color: #4f5e7e;
+}
+
+
+.container-left .navlist .dropbottom {
+    display: block;
+    color: #b8b7b7;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 40px;
+
+}
+
+.container-left .navlist img {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.container-left .navlist .logo {
+    color: #fff;
+}
+
+.container-left .navlist .line {
+    color: #91b1f3;
+    font-size: 20px;
+}
+
+.container-left .droplist {
+    position: absolute;
+    box-sizing: border-box;
+
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #aeabab;
+    box-shadow: 2px 2px 3px #919090;
+    list-style: none;
+    background-color: #1b1b1b;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: none; */
+    opacity: 0;
+    transform: translateY(-600px);
+    transition: .3s;
+}
+
+.container-left .navlist:hover .droplist {
+    /* display: block; */
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.droplist-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.droplist li a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fbfbfb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: start;
+}
+
+.droplist-one {
+    display: block;
+    height: 70px;
+    width: 25px;
+    line-height: 30px;
+    font-size: 35px;
+}
+
+.droplist li:nth-child(1) .droplist-one {
+    color: #fc7282;
+}
+
+.droplist li:nth-child(2) .droplist-one {
+    color: #6e87b9;
+}
+
+.droplist li:nth-child(3) .droplist-one {
+    color: #817921;
+}
+
+.droplist li:nth-child(4) .droplist-one {
+    color: #178847;
+}
+
+.droplist li:nth-child(5) .droplist-one {
+    color: #846ab9;
+}
+
+.droplist li:nth-child(6) .droplist-one， .droplist li:nth-child(7) .droplist-one {
+    color: #ffffff;
+}
+
+
+.droplist-bottom {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.droplist-two {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.droplist-three {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.container-left .navlist .droplist li a:hover {
+    background-color: #343434;
+}
+
+.container-right {
+    width: 340px;
+    height: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navlist .container-right a {
+    text-decoration: none;
+    display: block;
+}
+
+
+
+.button-wrap-one {
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    color: #b8b7b7;
+
+}
+
+.button-wrap-one:hover {
+    background-color: #858585;
+}
+
+input {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #b8b7b7;
+    background-color: #1b1b1b;
+
+}
+
+.container-right .Log-in {
+    color: #b8b7b7;
+    font-weight: 600;
+}
+
+.container-right .Get-MDN-Plus {
+    width: 122px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.button-wrap-two {
+    color: #484747;
+    font-weight: 600;
+    font-size: 13px;
+}

@@ -1,0 +1,344 @@
+main {
+    width: 100%;
+    height: 2272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-search {
+    position: relative;
+    overflow: hidden;
+    height: 384px;
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+}
+
+.main-search-contain {
+    box-sizing: border-box;
+    width: 850px;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-search-contain div:nth-child(1) {
+    align-self: start;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+.main-search-contain div:nth-child(2) {
+    align-self: start;
+    color: #d2d1d1;
+}
+
+.main-search-contain div:nth-child(3) input {
+    width: 640px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #0e0e0e;
+}
+
+.underline-one {
+    position: absolute;
+    color: #91b5fc;
+    top: 33px;
+    left: 880px;
+    font-size: 40px;
+}
+
+.underline-two {
+    position: absolute;
+    color: #91b5fc;
+    font-size: 40px;
+    top: 90px;
+    left: 880px;
+}
+
+.search-bg {
+    position: absolute;
+    top: -30px;
+    right: 500px;
+    /* 透明度 */
+    opacity: 0.4;
+    animation: rotate 100s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-Featured-Articles {
+    box-sizing: border-box;
+    height: 400px;
+    width: 864px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-title {
+    box-sizing: border-box;
+    padding: 16px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    color: #1b1b1b;
+}
+
+.main-content {
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content-box {
+    width: 100%;
+    height: 163px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-box {
+    box-sizing: border-box;
+    width: 407px;
+    padding: 16px;
+    color: #1b1b1b;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-box:hover {
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .15);
+}
+
+.main-box a {
+    display: block;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+.main-box a:hover {
+    text-decoration: underline;
+}
+
+.main-box-two {
+    font-size: 19px;
+}
+
+.main-box-three {
+    padding-top: 13px;
+    /* 多行文本溢出省略号显示 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    /* 多行文本下文字渐隐消失 ：用两个mask控制*/
+    mask: linear-gradient(90deg, #fff, transparent);
+}
+
+.main-Latest-news {
+    box-sizing: border-box;
+    height: 250px;
+    width: 864px;
+    padding: 0 16px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.main-Latest-news-content {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-Latest-news-content div {
+    flex: 1;
+}
+
+.main-Latest-news-content div:nth-child(odd) {
+    background-color: #f9f9fb;
+}
+
+.main-Latest-news-content div {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-right {
+    font-size: 13px;
+    line-height: 35px;
+    color: #919192;
+
+}
+
+.main-Latest-news-content a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.main-Latest-news-content a:hover {
+    text-decoration: underline;
+}
+
+.main-Latest-news-content a:nth-child(2) {
+    font-size: 13px;
+    color: #919192;
+}
+
+
+
+.main-Recent-contributions {
+    box-sizing: border-box;
+    padding: 0 16px;
+    height: 695px;
+    width: 864px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-Recent-contributions-content {
+    box-sizing: border-box;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-Recent-contributions-content div {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+
+.main-Recent-contributions-content div:nth-child(odd) {
+    background-color: #f9f9fb;
+}
+
+.main-Recent-contributions-content a {
+    color: #444444;
+    text-decoration: none;
+}
+
+.main-Recent-contributions-content a:hover {
+    text-decoration: underline;
+}
+
+.main-Recent-contributions-content a:nth-child(2) {
+    font-size: 13px;
+    color: #919192;
+}
+
+.main-Contributor-Spotlight {
+    position: relative;
+    height: 412px;
+    width: 100%;
+    color: #ededed;
+    background-color: #1a1a1a;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-content {
+    width: 780px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bg-content img {
+    display: block;
+    width: 230px;
+    height: 145px;
+}
+
+.bg-image {
+    position: absolute;
+    bottom: -190px;
+    left: 520px;
+    opacity: 0.4;
+}
+
+.main-Contributor-Spotlight-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 460px;
+}
+
+.main-Contributor-Spotlight-left div:nth-child(1) {
+    font-size: 18px;
+}
+
+.main-Contributor-Spotlight-left div:nth-child(2) {
+    height: 30px;
+    width: 60px;
+    line-height: 30px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.main-Contributor-Spotlight-left div a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.main-Contributor-Spotlight-left div:nth-child(3) {
+    font-style: italic;
+    color: #b5b5b5;
+    line-height: 30px;
+}
+
+.main-Contributor-Spotlight-left div:nth-child(4) {
+    color: #91b5fc;
+}
+
+.main-Contributor-Spotlight-right {
+    display: flex;
+    align-items: center;
+}
